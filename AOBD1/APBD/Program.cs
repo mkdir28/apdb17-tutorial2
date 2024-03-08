@@ -16,3 +16,8 @@ static double GetAverage(int[] num)
 
     return sum / num.Length;
 }
+
+int[] num = {1,2,3,4};
+//we can use "var" (like in c++ auto)
+double avg = GetAverage(num);
+Console.WriteLine(avg);
