@@ -13,7 +13,6 @@ static double GetAverage(int[] num)
     {
         sum += num[i];
     }
-
     return sum / num.Length;
 }
 
