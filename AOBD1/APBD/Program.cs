@@ -8,13 +8,12 @@ Console.WriteLine("Modification 4");
 
 static double GetAverage(int[] num)
 {
-    double sums = 0.0;
+    double sum = 0.0;
     for (int i = 0; i < num.Length; i++)
     {
-        sums += num[i];
+        sum += num[i];
     }
-
-    return sums / num.Length;
+    return sum / num.Length;
 }
 
 //4 task - Rebase
