@@ -17,7 +17,21 @@ static double GetAverage(int[] num)
     return sum / num.Length;
 }
 
+//4 task - Rebase
+static double GetMax(int[] num)
+{
+    double max = Double.NegativeInfinity;
+    for (int i = 0; i < num.Length; i++)
+    {
+        if (num[i] > max)
+            max = num[i];
+    }
+    return max;
+}
+
 int[] num = {1,2,3,4};
 //we can use "var" (like in c++ auto)
 double avg = GetAverage(num);
+double max = GetMax(num);
 Console.WriteLine(avg);
+Console.WriteLine(max);
