@@ -14,7 +14,7 @@ static double GetAverage(int[] num)
         sum += num[i];
     }
 
-    return sums / num.Length;
+    return sum / num.Length;
 }
 
 //4 task - Rebase
