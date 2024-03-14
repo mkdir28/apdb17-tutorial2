@@ -9,9 +9,9 @@ Console.WriteLine("Modification 4");
 static double GetAverage(int[] num)
 {
     double sums = 0.0;
-    for (int i = 0; i < num.Length; i++)
+    for (int y = 0; y < num.Length; y++)
     {
-        sums += num[i];
+        sums += num[y];
     }
     return sums / num.Length;
 }
